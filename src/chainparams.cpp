@@ -85,6 +85,11 @@ public:
         assert(hashGenesisBlock == uint256("0x00000a070895a3179065b7c8aa1ca794b2e5a06db5bec55b964ac495985085fd"));
         assert(genesis.hashMerkleRoot == uint256("0x10b19e6c172f259d81cb2935e10033dd70e4eebad00d104a7807d1a09599c51e"));
 
+        vSeeds.push_back(CDNSSeedData("seed.bitstarcoin.com", "seed.bitstarcoin.com"));
+        vSeeds.push_back(CDNSSeedData("seed2.bitstarcoin.com", "seed2.bitstarcoin.com"));
+        vSeeds.push_back(CDNSSeedData("seed3.bitstarcoin.com", "seed3.bitstarcoin.com"));
+        vSeeds.push_back(CDNSSeedData("seed4.bitstarcoin.com", "seed4.bitstarcoin.com"));
+
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 8);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 153);
