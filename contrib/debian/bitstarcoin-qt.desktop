@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BitstarCoin
+Comment=BitstarCoin P2P Cryptocurrency
+Comment[fr]=BitstarCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BitstarCoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/bitstarcoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/bitstarcoin;
+Categories=Office;

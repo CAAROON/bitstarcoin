@@ -1,0 +1,2 @@
+debian/bin/bitstarcoind usr/bin
+src/bitstarcoind usr/lib/bitstarcoin

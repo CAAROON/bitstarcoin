@@ -1,0 +1,9 @@
+Building BitstarCoin
+
+See doc/readme-qt.rst for instructions on building BitstarCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of BitstarCoin.
+
+See doc/build-*.txt for instructions on building bitstarcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of BitstarCoin.
